@@ -1,0 +1,10 @@
+services:
+  ski_forecast_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ski_forecast_app_container
+    volumes:
+      - ./forecast_output:/app/forecast_output
+  
+    command: ["python", "main.py"]
