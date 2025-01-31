@@ -1,7 +1,13 @@
-import os
+# import os
 
-from src.data_handler import load_sql_file_to_dataframe
+# from src.data_handler import load_sql_file_to_dataframe
 
-df = load_sql_file_to_dataframe(os.path.join("data","tickets.db"))
+# df = load_sql_file_to_dataframe(os.path.join("data","tickets.db"))
 
-print(df.head())
+# print(df.head())
+
+from forecast import forecast
+
+if __name__ == "__main__":
+    forecast()
+    

@@ -1,2 +1,6 @@
 pandas
-sqlite3
+seaborn
+prophet 
+numpy 
+matplotlib 
+plotly
